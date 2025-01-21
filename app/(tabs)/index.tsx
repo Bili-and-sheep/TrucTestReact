@@ -6,7 +6,9 @@ import { useState, useRef } from 'react';
 import { captureRef } from 'react-native-view-shot';
 import { View, Text, StyleSheet, Platform } from 'react-native';
 import { GestureHandlerRootView } from "react-native-gesture-handler";
+
 import domtoimage from 'dom-to-image';
+
 
 
 import * as ImagePicker from 'expo-image-picker';
